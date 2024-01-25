@@ -1,0 +1,70 @@
+#explore{
+    display:flex;
+    justify-content: center;
+   
+}
+#filter{
+    color:gray;
+    text-align: center;
+  padding:25px;
+  border-radius: 6px;
+  margin:7.3vh 0 0 0;
+  
+    height:fit-content;
+}
+#filter h4,h5{
+    font-size: larger;
+   
+}
+ #headingOptions{
+    border: 1px #f7afc7 solid;
+    border-radius: 4px;
+    padding:10px 20px;
+    color:gray;
+    background-color: white;
+}
+#dropDown{
+    display:none;
+    box-shadow: 3px 3px 15px;
+    width:15%;
+}
+#dropDown>p{
+    padding:2px 8px;
+}
+#Categoryoptions>div:hover  #dropDown{
+border:1px solid #f7afc7;
+display: block;
+padding:5px;
+border-radius: 6px;
+position:absolute;
+top:2vh;
+left:12%;
+background-color: rgb(248, 242, 234);
+}
+#Categoryoptions>div:hover #headingOptions{
+    background-color: antiquewhite;
+color:grey;
+}
+#Categoryoptions>div:hover #dropDown>p:hover{
+    background-color: #a05a5a;
+    color:white;
+}
+#priceFilter{
+    text-align: left;
+}
+#priceFilter>h5{
+    width:fit-content;
+    margin-left: 50px;
+    font-size: larger;
+}
+#priceFilter p{
+    text-align: center;
+}
+#priceFilter button{
+    margin:20px 0 0 0;
+    border:1px solid #f7afc7;
+    padding:10px 20px;
+    color:gray;
+    border-radius: 5px;
+    background-color: white;
+}

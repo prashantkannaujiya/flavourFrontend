@@ -1,0 +1,132 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Mulish:wght@300&family=Pacifico&family=Satisfy&display=swap');
+
+  
+#header{
+    padding:15px 5%;
+    display: flex;
+    color:rgb(247, 247, 78);
+    align-items: center;
+  height:13vh;
+    background-color:#a05a5a;
+  opacity:0.8;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px gray;
+}
+#header h2{
+    font-size: xx-large;
+    font-family: 'Arimo', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Satisfy', cursive;
+}
+#header input{
+    background-color: white;
+    height:40px;
+    width:400px;
+    border: 1px solid white;
+    position: relative;
+    bottom:7px;
+    right:25px;
+    font-size: 20px;
+    border-radius: 9px;
+}
+
+#header input:focus{
+  outline: none;
+}
+#header form>button{
+  background-color: #a05a5a;
+position:relative;
+right:22px;
+top:2px;
+  font-size: 30px;
+  color:white;
+  border: 0;
+}
+
+#homePic{
+   
+   width:100%;
+   height:99vh;
+position:absolute;
+top:0;
+z-index: -1;
+
+background-color:#7a5c58;
+}
+#homePic>img{
+  width:100%;
+  height:99vh;
+  opacity: 0.4;
+}
+#home>h2{
+    margin:12vh 6%;
+color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 19vh;
+}
+#home>h3{
+color:yellow;
+margin:0 6%;
+font-size: 12vh;
+}
+
+#headerLogin button{
+background-color: antiquewhite;
+padding:8px 10px;
+border: 1px solid #f7afc7 ;
+border-radius: 4px;
+margin:10px;
+}
+#searchBox{
+  position:absolute;
+  left:36%;
+}
+.wait>h2{
+  position: absolute;
+  z-index: 2;
+  top:44vh;
+ right:42%;
+ font-size: xx-large;
+ font-weight: 400;
+ color: maroon;
+}
+.waitBackground{
+  position:fixed;
+  top:0;
+  height:100vh;
+  width: 100%;
+  background-color: #f3a7a7;
+  z-index: 1;
+  opacity: 0.7;
+}
+
+.lds-dual-ring {
+  position:fixed;
+  left:48%;
+  top:40vh;
+  z-index: 2;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid maroon;
+  border-color: maroon transparent maroon transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,51 @@
+.foodpic img{
+    width:90%;
+    height:35vh;
+    border-radius: 9px 9px 0 0;
+}
+#cart{
+  background-color: antiquewhite;
+    display: flex;
+    align-items:flex-start;
+   padding: 15px;
+   padding-left: 7%;
+  width:55%;
+   margin:10px;
+   margin-left:45px;
+   margin-bottom: 5vh;
+ box-shadow: 2px 2px 4px grey;
+}
+#cart button{
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #f7afc7 ;
+border-radius: 6px;
+}
+.productDetail{
+font-size: larger;
+
+}
+#cartSummary{
+    position:absolute;
+    width:23%;
+    right:38px;
+    top:36vh;
+  border-radius: 6px;
+    text-align: center;
+   height:36vh;
+    box-shadow:  0px 3px 5px brown;
+}
+#cartSummary h2{
+  font-weight: 400;
+  color:brown;
+}
+#cartHeading{
+  color:brown;
+  font-weight: 400;
+ 
+  margin:5vh 0 7vh 5%;
+}
+.cartDetail{
+  margin-left: 3%;
+  margin-top: 1.5vh;
+}

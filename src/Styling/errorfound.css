@@ -1,0 +1,13 @@
+.errorPage{
+text-align: center;
+color: grey;
+width: fit-content;
+padding:5%;
+background-color: antiquewhite;
+margin-left: 22%;
+margin-top: 10vh;
+border-radius: 5px;
+}
+#errorIcon{
+    font-size: 80px;
+}
