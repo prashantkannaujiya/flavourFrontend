@@ -14,7 +14,11 @@
 }
 #filter h4,h5{
     font-size: larger;
-   
+   background-color: #be7c7c;
+   padding: 5px;
+   border-radius: 4px;
+   color:white;
+   font-weight: 400;
 }
  #headingOptions{
     border: 1px #f7afc7 solid;
@@ -53,18 +57,21 @@ color:grey;
     text-align: left;
 }
 #priceFilter>h5{
-    width:fit-content;
-    margin-left: 50px;
-    font-size: larger;
+    
+   text-align: center;
 }
 #priceFilter p{
     text-align: center;
 }
 #priceFilter button{
-    margin:20px 0 0 0;
+    margin:10px 0 0 0;
     border:1px solid #f7afc7;
     padding:10px 20px;
     color:gray;
     border-radius: 5px;
     background-color: white;
+}
+#priceFilter input{
+    margin-bottom: 15px;
+    font-weight: 100;
 }
